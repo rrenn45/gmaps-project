@@ -12,6 +12,6 @@ export default function Home() {
       defaultZoom={5}
       gestureHandling={'greedy'}
       disableDefaultUI={false}
-    ><AdvancedMarker position={{lat: 53.53, lng: 10}}  ><Pin background={'yellow'} glyphColor={'#000'} borderColor={'#000'} glyph={'hello'} /></AdvancedMarker></Map>
+    ><AdvancedMarker position={{lat: 53.53, lng: 10}}  ><Pin background={'green'} glyphColor={'#000'} borderColor={'#000'} glyph={'hello'} /></AdvancedMarker></Map>
     </div>
   </APIProvider>)}
